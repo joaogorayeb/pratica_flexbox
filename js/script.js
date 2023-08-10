@@ -9,6 +9,6 @@ adc.addEventListener('click', function() {
 document.getElementById('sub').addEventListener('click', function (){
     let divsRetangulo = document.querySelectorAll('.retangulo');
     if(divsRetangulo.length > 0) {
-        divsRetangulo[0].remove();
+        divsRetangulo[0].remove ();
     }
 });
